@@ -5,12 +5,12 @@
 	<link rel="stylesheet" href="om13-programm.css" />
 </head>
 <body>
-<h1>openmind #om13</h1>
+<h1>openmind #om14</h1>
 <h2>{{ date|e }}</h2>
 <h3>{{ room|e }}</h3>
 {% for event in events %}
 <div class="event">
-<img class="qr" src="http://chart.apis.google.com/chart?cht=qr&chl=https://pentabarf.junge-piraten.de/fahrplan/om13/events/{{ event.id }}.de.html&chs=100x100" />
+<img class="qr" src="http://chart.apis.google.com/chart?cht=qr&chl=https://14.openmind-konferenz.de/schedule/12/event/{{ event.id }}.en.html&chs=100x100" />
 <h4>{{ event.start.format('H:i') }}–{{ event.end.format('H:i') }}: {{ event.title|e }}</h4>
 {% if event.subtitle %}<h5>{{ event.subtitle|e }}</h5>{% endif %}
 {% if event.persons %}<p class="persons">{{ event.persons|e }}</p>{% endif %}

@@ -6,7 +6,7 @@ require_once 'vendor/autoload.php';
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader);
 
-$xml = file_get_contents('https://pentabarf.junge-piraten.de/fahrplan/om13/schedule.de.xml');
+$xml = file_get_contents('https://14.openmind-konferenz.de/events.xml');
 
 $prog = new SimpleXMLElement($xml);
 

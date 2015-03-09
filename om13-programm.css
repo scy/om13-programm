@@ -7,12 +7,68 @@
 	font-style: normal;
 }
 
+@font-face {
+font-family: 'DejaWeb';
+src: url('https://14.openmind-konferenz.de/fonts/dejaweb.eot');
+src: local('DejaWeb'), local('DejaWeb Regular'), local('DejaWeb-Regular'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb.eot') format('embedded-opentype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb.woff') format('woff'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb.ttf') format('truetype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb.svg#DejaWebRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'DejaWeb';
+src: url('https://14.openmind-konferenz.de/fonts/dejaweb-italic.eot');
+src: local('DejaWeb Italic'), local('DejaWeb-Italic'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-italic.eot') format('embedded-opentype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-italic.woff') format('woff'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-italic.ttf') format('truetype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-italic.svg#DejaWebItalic') format('svg');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: 'DejaWeb';
+src: url('https://14.openmind-konferenz.de/fonts/dejaweb-bold.eot');
+src: local('DejaWeb Bold'), local('DejaWeb-Bold'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bold.eot') format('embedded-opentype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bold.woff') format('woff'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bold.ttf') format('truetype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bold.svg#DejaWebBold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'DejaWeb';
+src: url('https://14.openmind-konferenz.de/fonts/dejaweb-bolditalic.eot');
+src: local('DejaWeb Bold Italic'), local('DejaWeb-BoldItalic'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bolditalic.eot') format('embedded-opentype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bolditalic.woff') format('woff'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bolditalic.ttf') format('truetype'),
+url('https://14.openmind-konferenz.de/fonts/dejaweb-bolditalic.svg#DejaWebBoldItalic') format('svg');
+font-weight: bold;
+font-style: italic;
+}
+@font-face {
+font-family: 'Politics Head';
+src: url('https://14.openmind-konferenz.de/fonts/politicshead.eot');
+src: local('Politics Head'), local('Politics Head Bold'), local('PoliticsHead-Bold'), local('Politics Head Regular'), local('PoliticsHead-Regular'),
+url('https://14.openmind-konferenz.de/fonts/politicshead.eot') format('embedded-opentype'),
+url('https://14.openmind-konferenz.de/fonts/politicshead.woff') format('woff'),
+url('https://14.openmind-konferenz.de/fonts/politicshead.ttf') format('truetype'),
+url('https://14.openmind-konferenz.de/fonts/politicshead.svg#PoliticsHeadBold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+
 body {
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 h1, h2 {
-	font-family: 'GeoSansLight', 'Conv_GeosansLight', sans-serif;
+	font-family: 'Politics Head', 'GeoSansLight', 'Conv_GeosansLight', sans-serif;
 }
 
 div.event {
